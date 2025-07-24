@@ -1,7 +1,7 @@
 {
     "locale": "en",
     "navbar": {
-        "title": "my_site",
+        "title": "首页",
         "logo": {
             "alt": "my_site logo",
             "url": ""
@@ -10,7 +10,7 @@
         "items": [
             {
                 "url": "/doc1/",
-                "label": "Doc1",
+                "label": "文档",
                 "position": "left"
             }
         ]
