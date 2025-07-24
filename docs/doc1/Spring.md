@@ -1,13 +1,3 @@
----
-title: Article title
-keywords: keyword1, keyword2
-desc: description for this article
-date: 2022-09-01
----
-
-
-# Spring
-
 ## Bean生命周期
 
 ```
@@ -30,38 +20,4 @@ Prototype‌：每次请求时创建，销毁由客户端代码或垃圾回收�
 Request：每次 HTTP 请求创建，请求结束销毁。
 
 Session：用户会话期间存在，会话超时或注销时销毁。
-
-
-
-# Redis
-
-## Redis数据结构
-
-[Redis 的数据结构总结-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1915694)
-
-
-
-# MySQL
-
-## 聚簇索引和非聚簇索引
-
-## 索引失效问题
-
-## 三大日志
-
-
-
-# Java
-
-## 垃圾回收算法
-
-### 标记-清理法
-
-### 复制算法
-
-### 标记整理法
-
-
-
-## 垃圾回收器
 
