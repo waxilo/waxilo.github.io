@@ -1,3 +1,9 @@
 items:
--   label: Brief
-    file: README.md
+-   label: Java
+    file: Java.md
+    
+-   label: Redis
+    file: Redis.md
+
+-   label: Spring
+    file: Spring.md

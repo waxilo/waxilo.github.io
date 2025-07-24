@@ -7,10 +7,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <meta name="keywords" content="keyword1, keyword2">
+    <meta name="keywords" content="">
     
     
-    <meta name="description" content="description for this article">
+    <meta name="description" content="">
     
     <meta name="generator" content="teedoc">
     <meta name="theme" content="teedoc-plugin-theme-default">
@@ -42,10 +42,10 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
         
     
     
-    <title>Article title - mysite</title>
+    <title>mysite</title>
     
     <script type="text/javascript">js_vars = {}</script>
-    <script type="text/javascript">metadata = {"tags": [], "date": "2022-09-01", "update": [], "ts": 1661961600, "author": "", "brief": "", "cover": ""}</script>
+    <script type="text/javascript">metadata = {"tags": [], "date": null, "update": [], "ts": 0, "author": "", "brief": "", "cover": ""}</script>
 </head>
 
 
@@ -56,7 +56,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
             <a class="site_title" href="/">
                 
                 
-                    <h2>my_site</h2>
+                    <h2>首页</h2>
                 
         </a>
             <a id="navbar_menu_btn"></a>
@@ -64,7 +64,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
         <div id="navbar_items">
             <div>
                 <ul id="nav_left">
-<li class="active"><a  href="/doc1/">Doc1</a></li>
+<li class="active"><a  href="/doc1/">文档</a></li>
 </ul>
 
             </div>
@@ -84,7 +84,9 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     
                 </div>
                 <ul class="show">
-<li class="active with_link"><a href="/doc1/index.html"><span class="label">Brief</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/doc1/Java.html"><span class="label">Java</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/doc1/Redis.html"><span class="label">Redis</span><span class=""></span></a></li>
+<li class="active with_link"><a href="/doc1/Spring.html"><span class="label">Spring</span><span class=""></span></a></li>
 </ul>
 
             </div>
@@ -99,7 +101,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     <div id="article_head">
                         <div id="article_title">
                             
-                            <h1>Article title</h1>
+                            <h1></h1>
                             
                         </div>
                         <div id="article_tags">
@@ -113,8 +115,8 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                                 
                             </span>
                             
-                                <span class="article_date" title="Last modify date: 2022-09-01">
-                                    2022-09-01
+                                <span class="article_date" title="Last modify date: 2025-07-24">
+                                    2025-07-24
                                 </span>
                             
                         </div>
@@ -132,43 +134,33 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     </div>
                     <div id="article_content">
                         
-                            <h2 id="Add-article">Add article</h2>
-<ul>
-<li>Create markdown file with file name end with <code>.md</code> in the directory of this file, e.g. <code>first.md</code></li>
-<li>Add link in <code>sidebar.yaml</code></li>
-</ul>
+                            <h2 id="Bean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F">Bean生命周期</h2>
 
-<pre class="language-markdown"><code class="language-markdown">items:
--   label: Brief
-    file: README.md
--   label: First
-    file: first.md
+<pre class="language-none"><code class="language-none">Bean 实例化 → 
+属性注入 → 
+BeanPostProcessor 前置处理 → 
+初始化方法（@PostConstruct → InitializingBean → init-method） → 
+BeanPostProcessor 后置处理 → 
+Bean 就绪 → 
+容器关闭 → 
+销毁方法（@PreDestroy → DisposableBean → destroy-method）
 </code></pre>
-<h2 id="More-example">More example</h2>
-<p>More visit: <a href="https://teedoc.neucrack.com/"  target="_blank">teedoc.neucrack.com</a> or <a href="https://teedoc.github.io/"  target="_blank">teedoc.github.io</a></p>
-<p>And more example see: <a href="https://github.com/teedoc/teedoc.github.io"  target="_blank">github.com/teedoc/teedoc.github.io</a> and <a href="https://github.com/teedoc/template"  target="_blank">https://github.com/teedoc/template</a> , and <a href="https://github.com/sipeed/sipeed_wiki"  target="_blank">sipeed wiki</a></p>
-<hr />
-<h2 id="%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0">添加文章</h2>
-<ul>
-<li>在本文件所在目录创建 markdown 以  <code>.md</code> 结尾的文件，比如 <code>first.md</code></li>
-<li>在 <code>sidebar.yaml</code> 中添加侧边栏链接</li>
-</ul>
-
-<pre class="language-markdown"><code class="language-markdown">items:
--   label: Brief
-    file: README.md
--   label: First
-    file: first.md
-</code></pre>
-<h2 id="%E6%9B%B4%E5%A4%9A%E4%BE%8B%E5%AD%90">更多例子</h2>
-<p>更多请访问: <a href="https://teedoc.neucrack.com/"  target="_blank">teedoc.neucrack.com</a> 或者 <a href="https://teedoc.github.io/"  target="_blank">teedoc.github.io</a></p>
-<p>更多例子访问: <a href="https://github.com/teedoc/teedoc.github.io"  target="_blank">github.com/teedoc/teedoc.github.io</a> 或者 <a href="https://github.com/teedoc/template"  target="_blank">https://github.com/teedoc/template</a> , 或 <a href="https://github.com/sipeed/sipeed_wiki"  target="_blank">sipeed wiki</a></p>
+<h2 id="%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%AF%B9%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E7%9A%84%E5%BD%B1%E5%93%8D">作用域对生命周期的影响</h2>
+<p>Singleton：容器启动时创建（若为懒加载则首次使用时创建），容器关闭时销毁。</p>
+<p>Prototype‌：每次请求时创建，销毁由客户端代码或垃圾回收控制（Spring 不管理原型 Bean 的销毁）。</p>
+<p>Request：每次 HTTP 请求创建，请求结束销毁。</p>
+<p>Session：用户会话期间存在，会话超时或注销时销毁。</p>
 
                         
                     </div>
                 </div>
                 <div id="previous_next">
                     <div id="previous">
+                        
+                        <a href="/doc1/Redis.html">
+                            <span class="icon"></span>
+                            <span class="label">Redis</span>
+                        </a>
                         
                     </div>
                     <div id="next">
@@ -199,7 +191,6 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
             </div>
             <div id="footer_bottom">
                 <ul>
-<li><a target="_blank" href="https://github.com/teedoc/teedoc">Generated by teedoc</a></li>
 </ul>
 
             </div>
@@ -219,8 +210,6 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
         <script src="/static/css/theme_default/prism.min.js"></script>
     
         <script src="/static/js/custom.js"></script>
-    
-        <script type="text/javascript" src="/static/js/live.js"></script>
     
 </body>
 
