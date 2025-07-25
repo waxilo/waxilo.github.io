@@ -1,3 +1,5 @@
 items:
 -   label: Brief
-    file: README.md
+    file: Java.md
+-   label: First
+    file: Redis.md
