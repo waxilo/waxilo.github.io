@@ -64,7 +64,8 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
         <div id="navbar_items">
             <div>
                 <ul id="nav_left">
-<li class="active"><a  href="/doc1/">文档</a></li>
+<li class=""><a  href="/dev/">文档</a></li>
+<li class="active"><a  href="/other/">其他</a></li>
 </ul>
 
             </div>
@@ -84,11 +85,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     
                 </div>
                 <ul class="show">
-<li class="not_active with_link"><a href="/doc1/index.html"><span class="label">简介</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/doc1/Java.html"><span class="label">Java</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/doc1/MySQL.html"><span class="label">MySQL</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/doc1/Redis.html"><span class="label">Redis</span><span class=""></span></a></li>
-<li class="active with_link"><a href="/doc1/Spring.html"><span class="label">Spring</span><span class=""></span></a></li>
+<li class="active with_link"><a href="/other/index.html"><span class="label">简介</span><span class=""></span></a></li>
 </ul>
 
             </div>
@@ -136,33 +133,13 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     </div>
                     <div id="article_content">
                         
-                            <h2 id="Bean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F">Bean生命周期</h2>
-
-<pre class="language-none"><code class="language-none">Bean 实例化 → 
-属性注入 → 
-BeanPostProcessor 前置处理 → 
-初始化方法（@PostConstruct → InitializingBean → init-method） → 
-BeanPostProcessor 后置处理 → 
-Bean 就绪 → 
-容器关闭 → 
-销毁方法（@PreDestroy → DisposableBean → destroy-method）
-</code></pre>
-<h2 id="%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%AF%B9%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E7%9A%84%E5%BD%B1%E5%93%8D">作用域对生命周期的影响</h2>
-<p>Singleton：容器启动时创建（若为懒加载则首次使用时创建），容器关闭时销毁。</p>
-<p>Prototype‌：每次请求时创建，销毁由客户端代码或垃圾回收控制（Spring 不管理原型 Bean 的销毁）。</p>
-<p>Request：每次 HTTP 请求创建，请求结束销毁。</p>
-<p>Session：用户会话期间存在，会话超时或注销时销毁。</p>
+                            <p>111</p>
 
                         
                     </div>
                 </div>
                 <div id="previous_next">
                     <div id="previous">
-                        
-                        <a href="/doc1/Redis.html">
-                            <span class="icon"></span>
-                            <span class="label">Redis</span>
-                        </a>
                         
                     </div>
                     <div id="next">
