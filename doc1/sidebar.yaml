@@ -3,6 +3,8 @@ items:
     file: README.md
 -   label: Java
     file: Java.md
+-   label: MySQL
+    file: MySQL.md
 -   label: Redis
     file: Redis.md
 -   label: Spring
