@@ -9,7 +9,4 @@ id: home_page
 <div>
     <h1><span>wxl个人小站</span></h1>
 </div>
-<div id="big_btn_wrapper">
-    <a class="btn" href="/doc1/">See Doc1</a>
-</div>
 
