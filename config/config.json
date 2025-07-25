@@ -9,8 +9,13 @@
         "home_url": "/",
         "items": [
             {
-                "url": "/doc1/",
+                "url": "/dev/",
                 "label": "文档",
+                "position": "left"
+            },
+            {
+                "url": "/other/",
+                "label": "其他",
                 "position": "left"
             }
         ]
