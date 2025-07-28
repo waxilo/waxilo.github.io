@@ -1,9 +1,15 @@
 {
     "items": [{
-        "label": "Mac Idea 最新版激活",
-        "file": "Mac Idea 最新版激活.md"
-    }, {
-        "label": "结点 or 提子",
-        "file": "结点 or 提子.md"
-    }]
+            "label": "一键激活 JetBrains 全家桶",
+            "file": "一键激活 JetBrains 全家桶.md"
+        },
+        {
+            "label": "Mac Idea 最新版激活",
+            "file": "Mac Idea 最新版激活.md"
+        },
+        {
+            "label": "街电 or 蹄子",
+            "file": "街电 or 蹄子.md"
+        }
+    ]
 }
