@@ -36,4 +36,10 @@
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
+        <url>
+            <loc>https://my_name.github.io/other/MAC Idea 最新版激活.html</loc>
+            <lastmod>2025-07-28</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
     </urlset>
