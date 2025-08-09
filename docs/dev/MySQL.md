@@ -6,4 +6,6 @@
 
 ## MySQL优化
 
-https://www.cnblogs.com/lgx211/p/18499524
+## MySQL锁机制
+
+[MySQL 锁机制深度剖析：全局锁、表锁与行锁 - StriverD - 博客园](https://www.cnblogs.com/dc-s/p/18884588)
