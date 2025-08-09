@@ -2,6 +2,8 @@
 
 ## 索引失效问题
 
+[15个必知的Mysql索引失效场景，别再踩坑了-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1992920)
+
 ## 三大日志
 
 ## MySQL优化
