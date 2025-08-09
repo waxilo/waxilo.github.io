@@ -1,6 +1,6 @@
 ## Synchronized锁详解
 
-[大彻大悟synchronized原理，锁如何升级 - 知乎](https://zhuanlan.zhihu.com/p/290991898)
+[大彻大悟synchronized原理，锁的升级Synchronized原理是面试中的一个难点。网上的各种资料太乱了 ，概 - 掘金](https://juejin.cn/post/6894099621694406669)
 
 ## 垃圾回收算法
 
