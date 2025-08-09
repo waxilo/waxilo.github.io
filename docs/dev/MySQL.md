@@ -8,6 +8,8 @@
 
 ## 三大日志
 
+[彻底搞懂三大MySQL日志，Redo Log、Undo Log、Bin Log - Java高频面试题 - SegmentFault 思否](https://segmentfault.com/a/1190000042041728)
+
 ## MySQL优化
 
 [一文彻底弄懂MySQL的优化 - lgx211 - 博客园](https://www.cnblogs.com/lgx211/p/18499524)
