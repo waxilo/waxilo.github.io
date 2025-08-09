@@ -7,4 +7,4 @@
 [JVM的垃圾回收机制——垃圾回收算法 - 知乎](https://zhuanlan.zhihu.com/p/159200599)
 
 ## 垃圾回收器
-[7种jvm垃圾回收器，这次全部搞懂-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1698772)
+[一文彻底搞懂八种JVM垃圾回收器_垃圾回收器有几种-CSDN博客](https://blog.csdn.net/weixin_44772566/article/details/136248892)
